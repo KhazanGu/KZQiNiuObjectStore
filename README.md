@@ -2,7 +2,7 @@
 
 ## 七牛对象存储，单文件上传
 
-实现七牛加签算法，以表单方式上传文件
+实现七牛加签算法，以表单方式上传文件
 
 模拟表单借助了 `AFURLRequestSerialization`，为防止冲突已改为 `KZURLRequestSerialization`
 
