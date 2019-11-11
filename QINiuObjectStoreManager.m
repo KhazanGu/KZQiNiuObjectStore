@@ -118,7 +118,8 @@ constructingBodyWithBlock:(void (^)(id <KZMultipartFormData> formData))block
     
     NSURLSessionConfiguration *config = [NSURLSessionConfiguration defaultSessionConfiguration];
     NSURLSession *session = [NSURLSession sessionWithConfiguration:config];
-    
+    [session finishTasksAndInvalidate];
+
     __block NSURLSessionDataTask *task = [session uploadTaskWithRequest:request fromData:nil completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         if (error == nil && success) {
             success(task, data);
