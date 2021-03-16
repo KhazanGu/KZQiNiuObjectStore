@@ -1,0 +1,16 @@
+PODS:
+  - KZQiNiuObjectStore (0.1.0)
+
+DEPENDENCIES:
+  - KZQiNiuObjectStore (from `../`)
+
+EXTERNAL SOURCES:
+  KZQiNiuObjectStore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KZQiNiuObjectStore: 34c06772ba86ed5c65558851a6d0d9bfaf62327c
+
+PODFILE CHECKSUM: 5ecb7ae07270f1d172c7a2250ab82a2c28fdc050
+
+COCOAPODS: 1.8.4

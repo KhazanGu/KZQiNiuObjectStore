@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'KZQiNiuObjectStore_Example' do
+  pod 'KZQiNiuObjectStore', :path => '../'
+
+  target 'KZQiNiuObjectStore_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

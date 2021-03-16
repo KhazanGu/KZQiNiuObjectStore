@@ -1,0 +1,22 @@
+{
+  "name": "KZQiNiuObjectStore",
+  "version": "0.1.0",
+  "summary": "A short description of KZQiNiuObjectStore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/KhazanGu/KZQiNiuObjectStore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "KhazanGu": "Khazan.Gu@icloud.com"
+  },
+  "source": {
+    "git": "https://github.com/KhazanGu/KZQiNiuObjectStore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "KZQiNiuObjectStore/Classes/**/*"
+}

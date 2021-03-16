@@ -1,13 +1,45 @@
-# 七牛对象存储
+# KZQiNiuObjectStore
 
-## 客户端加签，单文件上传
+[![CI Status](https://img.shields.io/travis/KhazanGu/KZQiNiuObjectStore.svg?style=flat)](https://travis-ci.org/KhazanGu/KZQiNiuObjectStore)
+[![Version](https://img.shields.io/cocoapods/v/KZQiNiuObjectStore.svg?style=flat)](https://cocoapods.org/pods/KZQiNiuObjectStore)
+[![License](https://img.shields.io/cocoapods/l/KZQiNiuObjectStore.svg?style=flat)](https://cocoapods.org/pods/KZQiNiuObjectStore)
+[![Platform](https://img.shields.io/cocoapods/p/KZQiNiuObjectStore.svg?style=flat)](https://cocoapods.org/pods/KZQiNiuObjectStore)
 
-实现七牛加签算法，以表单方式上传文件。
+## Example
 
-模拟表单借助了 `AFURLRequestSerialization`，为防止冲突已改为 `KZURLRequestSerialization`
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Description
+
+### KZQiNiuObjectStore
+
+Upload data into QiNiu. The must parameters are *data*, *fileName*, *host*, *bucket*, *accessKey*, *secretKey*
+
+### KZUploadToken
+
+Generate a token for user authorization
+
+### KZUploadViaDataSplit
+
+Split data and upload
+
+### KZUploadViaFormData
+
+Upload full data via formdata
 
 
+## Requirements
 
-> 表单上传适用于文件内容可以在一次 HTTP 请求即可传递完成的场景。该功能非常适合在浏览器中使用 HTML 表单上传资源，或者在不需要处理复杂情况的客户端开发中使用。如果文件较大（大于 1GB），或者网络环境较差，可能会导致 HTTP 连接超时而上传失败。若发生这种情况，您需要考虑换用更安全的分片上传功能。
+## Installation
 
-`暂无分片上传`
+```
+pod 'KZQiNiuObjectStore', :git => 'https://github.com/KhazanGu/KZQiNiuObjectStore.git'
+```
+
+## Author
+
+KhazanGu, Khazan@foxmail.com
+
+## License
+
+KZQiNiuObjectStore is available under the MIT license. See the LICENSE file for more info.

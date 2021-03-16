@@ -1,0 +1,6 @@
+framework module KZQiNiuObjectStore {
+  umbrella header "KZQiNiuObjectStore-umbrella.h"
+
+  export *
+  module * { export * }
+}
